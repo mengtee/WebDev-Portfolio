@@ -27,7 +27,7 @@ export const Skills = () => {
     },
   };
   return (
-    <section>
+    <section id="skills">
       <Container>
         <Row>
           <Col>
@@ -41,15 +41,19 @@ export const Skills = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Developer</h5>
-                </div>
-                <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>Web Developer</h5>
+                  <h5>Web Developer (HTML, CSS, JS, React JS, Next JS) </h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>Web Developer</h5>
+                  <h5>AI Developer (llama-index, langchain, llama2) </h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>Retrieval Augmented Generation (RAG) Engineer</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>ML Engineer (Tensor flow, Pytorch, Keras) </h5>
                 </div>
               </Carousel>
             </div>

@@ -9,13 +9,16 @@ import { ProjectCard } from "./components/ProjectCard";
 import { Footer } from "./components/Footer";
 import { Contact } from "./components/Contact";
 
+// Using Pascal casing
 function App() {
   return (
+    // JSX markup (similar to HTML but is not), react unable to return multiple element, the div class allow return multiple class
     <div className="App">
       <NavBar />
       <Banner />
       <Skills />
       <Projects />
+      {/* <Investments /> */}
       <Contact />
       <Footer />
     </div>

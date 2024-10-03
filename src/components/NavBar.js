@@ -51,16 +51,16 @@ export const NavBar = () => {
               Home
             </Nav.Link>
             <Nav.Link
-              href="#link"
+              href="#skills"
               className={
                 activeLink === "home" ? "active navbar-link" : "navbar-link"
               }
-              onClick={() => onUpdateActiveLink("skills")}
+              onClick={() => onUpdateActiveLink("Skills")}
             >
               Skills
             </Nav.Link>
             <Nav.Link
-              href="#link"
+              href="#projects"
               className={
                 activeLink === "home" ? "active navbar-link" : "navbar-link"
               }
@@ -71,21 +71,32 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/in/tee-meng-kiat-5589471b7/"
+                target="_blank"
+              >
                 <img src={navIcon1} alt="" />
               </a>
-              <a href="#">
+              <a href="https://github.com/mengtee" target="_blank">
                 <img src={navIcon4} alt="" />
               </a>
-              <a href="#">
-                <img src={navIcon2} alt="" />
-              </a>
-              <a href="#">
-                <img src={navIcon3} alt="" />
+              <a href="https://www.instagram.com/mengtee_/" target="_blank">
+                <img src={navIcon3} />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log("connect")}>
+            {/* <button className="vvd" onClick={() => console.log("connect")}>
               <span> Resume</span>
+            </button> */}
+            <button
+              className="vvd"
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1sRDoay-rJWp4kHCYd-40lAzu3R6xENWA/view?usp=sharing",
+                  "_blank"
+                );
+              }}
+            >
+              <span>Resume</span>
             </button>
           </span>
         </Navbar.Collapse>

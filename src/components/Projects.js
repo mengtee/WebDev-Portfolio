@@ -1,6 +1,6 @@
 import { Container, Row, Col, Nav } from "react-bootstrap";
 import projImg1 from "../assets/img/pic1.gif";
-import projImg2 from "../assets/img/project-img2.png";
+import projImg2 from "../assets/img/pic2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import { Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
@@ -13,11 +13,13 @@ export const Projects = () => {
       title: "Game Development",
       description: "Scala programming language",
       imgUrl: projImg1,
+      url: "https://github.com/mengtee/GameDev-topdownshooterDS", // URL for the project
     },
     {
-      title: "Business startup",
-      description: "Design and Development",
+      title: "Web Development",
+      description: "Property website ",
       imgUrl: projImg2,
+      url: "https://github.com/mengtee/mestate.github.io", // URL for the project
     },
     {
       title: "Business startup",
@@ -54,7 +56,13 @@ export const Projects = () => {
                   }
                 >
                   <h2>Projects</h2>
-                  <p>Testing 123, Testing 123, Testing 123</p>
+                  <p>
+                    A diverse portfolio of projects focused on Machine Learning,
+                    Artificial Intelligence, and full-stack web development.
+                    These projects showcase a deep understanding of advanced
+                    algorithms, innovative solutions, and practical applications
+                    in real-world scenarios.
+                  </p>
                 </div>
               )}
             </TrackVisibility>
@@ -65,13 +73,15 @@ export const Projects = () => {
                 id="pills-tab"
               >
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                  <Nav.Link eventKey="first">Web and Game Development</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                  <Nav.Link eventKey="second">
+                    Artificial Intelligence and Machine Learning
+                  </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                  <Nav.Link eventKey="third">Final Year Project</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>

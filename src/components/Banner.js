@@ -70,8 +70,23 @@ export const Banner = () => {
                     <span className="wrap">{text}</span>
                     <span className="cursor">|</span>
                   </h1>
-                  <p>hi I am passionate with comp science and AI</p>
-                  <button onClick={() => console.log("connect")}>
+                  <p>
+                    Passionate Computer Science undergraduate with hands-on
+                    experience in Artificial Intelligence and web development.
+                    Eager to seek industry opportunities that involve solving
+                    complex problems and continuously improving technical
+                    skills. Looking for technical roles where I can apply my
+                    knowledge to impactful projects in a collaborative
+                    environment.
+                  </p>
+                  <button
+                    onClick={() => {
+                      window.open(
+                        "https://www.linkedin.com/in/tee-meng-kiat-5589471b7/",
+                        "_blank"
+                      );
+                    }}
+                  >
                     Let's connect
                     <ArrowRightCircle size={25} />
                   </button>
