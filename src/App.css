@@ -570,3 +570,37 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+.carousel-column .item {
+  display: flex;             /* Use flexbox for centering */
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically */
+  height: 700px;            /* Set a fixed height for the item */
+}
+
+.carousel-column .item img {
+  max-height: 100%;         /* Allow image to take full height of the item */
+  max-width: 100%;          /* Allow image to take full width of the item */
+  object-fit: contain;      /* Keep aspect ratio intact */
+}
+
+.text-column {
+  display: flex;                /* Use Flexbox for centering */
+  flex-direction: column;       /* Stack items vertically */
+  justify-content: center;      /* Center items vertically */
+  align-items: center;          /* Center items horizontally */
+  height: 100%;                 /* Full height of the column */
+  text-align: center;           /* Center the text */
+}
+
+.text-column h2 {
+  font-size: 2rem;              /* Adjust font size as needed */
+  margin-bottom: 1rem;          /* Spacing below the title */
+  font-weight: bold;            /* Make the title bold */
+}
+
+.text-column p {
+  font-size: 1rem;              /* Adjust font size as needed */
+  line-height: 1.5;             /* Spacing between lines */
+  max-width: 600px;             /* Limit the width of the paragraph */
+}

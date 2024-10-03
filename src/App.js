@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { ProjectCard } from "./components/ProjectCard";
+import { Investments } from "./components/Investment";
 import { Footer } from "./components/Footer";
 import { Contact } from "./components/Contact";
 
@@ -18,7 +19,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
-      {/* <Investments /> */}
+      <Investments />
       <Contact />
       <Footer />
     </div>
