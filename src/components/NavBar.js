@@ -91,7 +91,7 @@ export const NavBar = () => {
               className="vvd"
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1sRDoay-rJWp4kHCYd-40lAzu3R6xENWA/view?usp=sharing",
+                  "https://drive.google.com/file/d/1dIXUTqrZVBAPP_2FBRWS5B8OSQRKhdBE/view?usp=sharing",
                   "_blank"
                 );
               }}
